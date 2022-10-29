@@ -1,0 +1,116 @@
+section {
+    width: 1020px;
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 48px;
+    position: relative;
+    color: #181818;
+}
+
+.pessoa {
+    display: inline-block;
+}
+
+.pessoa h1 {
+    text-align: center;
+    font-size: 88px;
+    margin-top: 128px;
+}
+
+.avatar {
+    position: absolute;
+    width: 300px;
+    aspect-ratio: 1;
+    background-image: url('../imagens/gisele-reis-avatar.png');
+    background-position: center;
+    background-size: cover;
+    right: 80px;
+    top: 90px;
+    border-radius: 50%;
+    border: #181818 16px solid;
+}
+
+.pessoa h2 {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.icones-contato {
+    width: 40px;
+    transition: 0.7s transform;
+    padding-right: 16px;
+}
+
+.contato {
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.icones-contato:hover {
+    transform: scale(1.5);
+}
+
+
+
+@media screen and (max-width:1040px) {
+    section {
+        width: 360px;
+        height: 440px;
+    }
+
+    .avatar {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 120px;
+        top: 16px;
+        border-width: 8px; 
+    }
+
+    .pessoa {
+        display: block;
+    }
+
+    .pessoa h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 120px;
+    }
+
+    .pessoa h2 {
+        text-align: center;
+        font-size: 14px;
+        margin: 4px 0 24px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .icones-informacoes {
+        width: 32px;
+    }
+    
+    .contato {
+        position: relative;
+        margin-left: 32px;
+    }
+    
+    .midias {  
+        position: absolute;
+        top: 400px;
+        right: 0;
+        left: 0px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .midias img {
+        width: 48px;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+}

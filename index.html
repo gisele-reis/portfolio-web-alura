@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/section.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/footer.css">
+
+        <title>Portifólio WEB - Gisele Reis</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mim">sobre mim</a></li>
+                    <li><a href="#formacao">formação</a></li>
+                    <li><a href="#experiencias">experiências</a></li>
+                    <li><a href="#habilidades">habilidades</a></li>
+                    <li><a href="#interesses">interesses</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <img class="icone-menu" src="./icones/menu.png" width="32px" height="40px">
+
+        <div id="menu-mobile" class="menu-mobile display-menu">
+            <img id="menu-exit" class="icone-exit" src="./icones/exit.svg" height="32px" width="40px">
+            <div class="nav-mobile">
+                <ul>
+                    <li><a href="#sobre-mim">sobre mim</a></li>
+                    <li><a href="#formacao">formação</a></li>
+                    <li><a href="#experiencias">experiências</a></li>
+                    <li><a href="#habilidades">habilidades</a></li>
+                    <li><a href="#interesses">interesses</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section>
+            <div class="pessoa">
+                <h1>Gisele Reis</h1>
+                <h2>Desenvolvedora em formação</h2>
+
+                <div class="contato">
+                    <a href="mailto:giselealvesdosreis@gmail.com"><img class="icones-contato" src="./icones/gmail.png"></a>
+                    <a href="https://www.linkedin.com/in/gisele-reis-140312204/" target="_blank"><img class="icones-contato" src="./icones/linkedin.png"></a>
+                    <a href="https://github.com/gisele-reis" target="_blank"><img class="icones-contato" src="./icones/github.png"></a>
+                </div>
+            </div>
+            <div class="avatar"></div>
+        </section>
+
+        <main>
+            <div class="sobre-mim" id="sobre-mim">
+                <img src="./imagens/gif-hello-world.gif" class="gif-hello-world">
+
+                <div class="texto-sobre-mim">
+                    <h3 class="titulo">Sobre mim</h3>
+                    <p>Oi! Eu sou a Gisele e sou bacharela em Biomedicina. Porém, sempre gostei muito de tecnologia e programação, por isso me tornei estudante de Análise e Desenvolvimento de Sistemas e, atualmente, participo do Empower Code for Women by Zenvia e Alura.</p>
+                </div>
+            </div>
+
+            <div id="formacao">
+                <h3 class="titulo">Formação</h3>
+                <h3>
+                    <p class="caixa-texto">
+                        Bacharelado em Biomedicina - Faculdade Anhanguera de Taubaté (completo).
+                        <br>
+                    </p>
+                    <p class="caixa-texto">
+                        Análise e Desenvolvimento de Sistemas - Fatec (cursando 1º semestre).
+                        <br>
+                    </p>
+                    <p class="caixa-texto">
+                        Curso de Introdução à Administração Estratégica - FGV online.
+                        <br>
+                    </p>
+                    <p class="caixa-texto">
+                        Formações Alura - Certificados <a href="https://cursos.alura.com.br/user/giselealvesdosreis/fullCertificate/7659cc65eebc0f4cc13597ed1bfe1a25">aqui</a>.
+                        <br>
+                    </p>
+                </h3>
+            </div>
+
+            <div id="experiencias">
+                <h3 class="titulo">Experiências</h3>
+                <p class="caixa-texto">
+                    Estagiária em LEAC (Laboratório Escola de Análises Clínicas) - fev/2021 a dez/2021.<br>
+                </p>
+                <p class="caixa-texto">
+                    Cuidadora infantil - 2019 à 2021.<br>
+                </p>
+            </div>
+
+            <div id="habilidades">
+                <h3 class="titulo">Habilidades</h3>
+                <ul>
+                    <li class="caixa-texto">Bom relacionamento interpessoal, capacidade de adaptação e facilidade em novos aprendizados.</li>
+                    <li class="caixa-texto">Aprendendo HTML, CSS, JavaScript e C#, sempre em busca de aprimorar meus resultados.</li>
+                </ul>
+            </div>
+
+            <div id="interesses">
+                <h3 class="titulo">Interesses</h3>
+                <img src="icones/rubik.png" class="icones-interesses" id="interesse-puzzle">
+                <img src="icones/netflix.svg" class="icones-interesses" id="interesse-serie">
+                <img src="icones/pokebola.png" class="icones-interesses" id="interesse-pokemon">
+                <img src="icones/planeta-terra.png" class="icones-interesses" id="interesse-natureza">
+
+            </div>
+
+            <div id="caixa-texto-interesses" class="informacoes-interesses">
+                <p id="texto-interesse" class="caixa-texto"></p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-informacoes">
+                <img src="./icones/contato.png" class="icones-informacoes">
+                <p class="fale-comigo">Fale comigo através do meu <a href="mailto:giselealvesdosreis@gmail.com">e-mail</a> ou <a href="https://api.whatsapp.com/send?phone=5512991054444&text=Ol%C3%A1%2C%20Gisele!%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site.">whatsapp</a>.</p>
+            </div>
+
+            <p>Gisele Reis<br>2022</p>
+        </footer>
+
+        <script src="main.js"></script> 
+    </body>
+</html>
